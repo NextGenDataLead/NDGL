@@ -129,12 +129,12 @@ export default function AboutPage() {
           {/* Bottom Left: Skills Puzzle */}
           <div>
             <h2 className="text-2xl font-bold text-center mb-6">Core Competencies</h2>
-            <div className="relative w-full max-w-[609px] mx-auto">
+            <div className="relative w-full max-w-[456px] mx-auto">
               <Image
                 src="/images/Skills.png"
                 alt="Skills Puzzle showing core competencies"
-                width={609}
-                height={609}
+                width={456}
+                height={456}
                 priority
               />
             </div>
