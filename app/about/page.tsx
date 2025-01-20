@@ -131,7 +131,7 @@ export default function AboutPage() {
             <h2 className="text-2xl font-bold text-center mb-6">Core Competencies</h2>
             <div className="relative w-full max-w-[456px] mx-auto">
               <Image
-                src="/images/Skills.png"
+                src="/images/skills.png"
                 alt="Skills Puzzle showing core competencies"
                 width={456}
                 height={456}

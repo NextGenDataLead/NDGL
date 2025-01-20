@@ -14,7 +14,7 @@ const testimonials = [
     author: "Diana ElRafai",
     role: "Customer Success Manager",
     company: "SettleMint",
-    image: "/images/testimonials/DianaElRafai.png",
+    image: "/images/testimonials/dianaelrafai.png",
     project: "RWA - Tokenization private equity",
     impact: "40% faster delivery",
     rating: 5
@@ -25,7 +25,7 @@ const testimonials = [
     author: "Aleksandar Mitchell",
     role: "CTO",
     company: "DappAstra",
-    image: "/images/testimonials/AleksandarMitchell.png",
+    image: "/images/testimonials/aleksandarmitchell.png",
     project: "Raising a Blockahain Power-Up; DappAstra",
     impact: "Satisfied stakeholders accross the board",
     rating: 5
@@ -36,7 +36,7 @@ const testimonials = [
     author: "Tinie D'Hondt",
     role: "Managing Partner",
     company: "Master Data Parnters",
-    image: "/images/testimonials/TinieDhondt.png",
+    image: "/images/testimonials/tiniedhondt.png",
     project: "Solutions Architect for BI and Masterdata",
     impact: "45% satisfaction increase",
     rating: 5
@@ -47,7 +47,7 @@ const testimonials = [
     author: "Gurpreet Singh",
     role: "Solutions Architect",
     company: "SettleMint India",
-    image: "/images/testimonials/GurpreetSingh.png",
+    image: "/images/testimonials/gurpreetsingh.png",
     project: "RWA - Tokenization private equity",
     impact: "On-point requirement analysis and client interaction",
     rating: 5
@@ -58,7 +58,7 @@ const testimonials = [
     author: "Massimo Terranova",
     role: "Digital Projects Data Specialist",
     company: "Grohe",
-    image: "/images/testimonials/Massimo-Terranova.png",
+    image: "/images/testimonials/massimo-terranova.png",
     project: "GS1 Data Quality Program",
     impact: "Clear insights, pro-active stakeholder- and expectation management",
     rating: 5
@@ -69,7 +69,7 @@ const testimonials = [
     author: "Dries Wiersma",
     role: "Commercial Manager",
     company: "IHC Fabrication",
-    image: "/images/testimonials/DriesWiersma.png",
+    image: "/images/testimonials/drieswiersma.png",
     project: "Build Sourcing Calculator",
     impact: "Quick development of a fit-for-purpose tool",
     rating: 5

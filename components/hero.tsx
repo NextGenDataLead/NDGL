@@ -11,7 +11,7 @@ export function Hero() {
         <div className="mx-auto max-w-2xl text-center">
           <div className="relative w-full h-[200px] sm:h-[300px] lg:w-[624px] lg:h-[371px] mb-10">
             <Image
-              src="/images/Logo_text.png"
+              src="/images/logo_text.png"
               alt="Next-Gen Data Lead"
               fill
               className="object-contain"

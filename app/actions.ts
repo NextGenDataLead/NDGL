@@ -6,8 +6,13 @@ export async function sendEmail(formData: {
   message: string;
 }) {
   try {
-    // For static export, we'll use a different approach
-    // This could be an API endpoint, Netlify function, or other serverless solution
+    const apiKey = process.env.NEXT_PUBLIC_WEB3FORMS_KEY;
+    
+    if (!apiKey) {
+      console.error('Web3Forms API key is not configured');
+      return { success: false, error: 'Contact form is not configured. Please set up Web3Forms API key.' };
+    }
+
     const response = await fetch('https://api.web3forms.com/submit', {
       method: 'POST',
       headers: {
@@ -15,7 +20,7 @@ export async function sendEmail(formData: {
         Accept: 'application/json',
       },
       body: JSON.stringify({
-        access_key: process.env.NEXT_PUBLIC_WEB3FORMS_KEY,
+        access_key: apiKey,
         ...formData,
       }),
     });
