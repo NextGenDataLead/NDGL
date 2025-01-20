@@ -26,7 +26,7 @@ export function Navigation() {
           <Link href="/" className="-m-1.5 p-1.5 flex items-center gap-2">
             <div className="relative w-8 h-8">
               <Image
-                src="/images/logo.png"
+                src="/images/Logo_no_text.png"
                 alt="Next-Gen Data Lead Logo"
                 fill
                 className="object-contain"
